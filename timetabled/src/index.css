@@ -1,68 +1,80 @@
-:root {
-  font-family: system-ui, Avenir, Helvetica, Arial, sans-serif;
-  line-height: 1.5;
-  font-weight: 400;
-
-  color-scheme: light dark;
-  color: rgba(255, 255, 255, 0.87);
-  background-color: #242424;
-
-  font-synthesis: none;
-  text-rendering: optimizeLegibility;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
-}
-
-a {
-  font-weight: 500;
-  color: #646cff;
-  text-decoration: inherit;
-}
-a:hover {
-  color: #535bf2;
-}
-
 body {
-  margin: 0;
-  display: flex;
-  place-items: center;
-  min-width: 320px;
-  min-height: 100vh;
-}
-
-h1 {
-  font-size: 3.2em;
-  line-height: 1.1;
-}
-
-button {
-  border-radius: 8px;
-  border: 1px solid transparent;
-  padding: 0.6em 1.2em;
-  font-size: 1em;
-  font-weight: 500;
-  font-family: inherit;
-  background-color: #1a1a1a;
-  cursor: pointer;
-  transition: border-color 0.25s;
-}
-button:hover {
-  border-color: #646cff;
-}
-button:focus,
-button:focus-visible {
-  outline: 4px auto -webkit-focus-ring-color;
-}
-
-@media (prefers-color-scheme: light) {
-  :root {
-    color: #213547;
-    background-color: #ffffff;
+    margin: 0;
+    display: flex;
+    place-items: center;
+    min-width: 1000px;
+    min-height: 100vh; /* Later Investigate what minimum height and minimum width all mean*/
+    background-color: rgb(126, 122, 77);
   }
-  a:hover {
-    color: #747bff;
+  
+  th {
+    
+    padding-top:25px;
+    padding-bottom:30px;
+    background-color: bisque;
   }
-  button {
-    background-color: #f9f9f9;
+  
+  td {
+    padding: 5px;
+    width: 300px;
+    
   }
-}
+  
+  .time {
+    height: 40px;
+    background-color: bisque;
+  }
+
+/*Styling the different Event componenents*/
+
+.Event {
+    max-width: 250px;
+    white-space: normal;
+    word-wrap: break-word;
+  }
+  
+  .Event h6, h5 {
+    line-height: 0px;
+    align-content: center;
+  }
+  
+  .muted-green {
+    background-color:#8FBC8F; /*Calm, deceptive normalcy*/
+    color: #333; /* Dark grey text for contrast*/
+  } 
+
+  .shadow-red {
+    background-color:#A52A2A; /*Ominous, understated danger*/
+    color: #FFF; /* White text for readerbility*/
+  }
+
+  .warming-orange {
+    background-color:#FF8C00; /*Growing heat, Investigations start*/
+    color: #000; /* Black text for contrast*/ 
+
+  }
+
+  .burnt-amber {
+    background-color:#D2691E; /*Tention deepens, risky moves*/
+    color: #FFF; /* White text for readerbility*/ 
+  }
+
+  .fading-yellow {
+    background-color:#FFD700; /*Deceptive calm, nearing the edge*/
+    color: #333; /* Dark grey text for contrast*/ 
+  }
+
+  .urgent-crimson {
+    background-color: #DC143C; /* Crimson - alarm, pursuit closes in */
+    color: #FFF; /* White text for readability */
+  }
+
+  .final-black {
+    background-color:#1C2526; /*Dark slate grey - endgame, doom*/
+    color: #FF4500; /* OrangeRed text for stark contrast*/ 
+  }
+
+
+
+
+
