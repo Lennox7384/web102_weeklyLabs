@@ -22,7 +22,7 @@ As my first React project, I’ve learned and applied several core concepts usin
 This project was a hands-on way to dive into React’s basics while exploring a dark historical narrative!
 
 ## Project Structure
-- **ted-bundy-calendar/**: Root directory
+- **timetabled/**: Root directory
   - **src/**: Source files
     - **main.jsx**: Entry point rendering the App
     - **App.jsx**: Top-level component with title and Calendar
