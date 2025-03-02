@@ -22,28 +22,26 @@ As my first React project, I’ve learned and applied several core concepts usin
 This project was a hands-on way to dive into React’s basics while exploring a dark historical narrative!
 
 ## Project Structure
-timetabled/
-├── src/
-│   ├── main.jsx           # Entry point rendering the App
-│   ├── App.jsx            # Top-level component with title and Calendar
-│   ├── App.css            # Styles for the App component
-│   ├── components/
-│   │   ├── Calendar.jsx   # Calendar grid component
-│   │   └── Event.jsx      # Reusable event component
-│   ├── index.css          # Calendar-specific styles
-├── public/
-│   ├── index.html         # HTML template with <div id="root"></div>
-│   └── vite.svg           # Vite logo (default)
-├── package.json           # Dependencies and scripts
-├── vite.config.js         # Vite configuration
-└── README.md              # This file
-
-
+- **ted-bundy-calendar/**: Root directory
+  - **src/**: Source files
+    - **main.jsx**: Entry point rendering the App
+    - **App.jsx**: Top-level component with title and Calendar
+    - **App.css**: Styles for the App component
+    - **components/**: Component subdirectory
+      - **Calendar.jsx**: Calendar grid component
+      - **Event.jsx**: Reusable event component
+    - **index.css**: Calendar-specific styles
+  - **public/**: Public assets
+    - **index.html**: HTML template with <div id="root"></div>
+    - **vite.svg**: Vite logo (default)
+  - **package.json**: Dependencies and scripts
+  - **vite.config.js**: Vite configuration
+  - **README.md**: This file
 
 ## Installation
 1. **Clone the Repository**:
    git clone 
-   cd ted-bundy-calendar
+   cd timetabled
 
 2. **Install Dependencies**:
 - Ensure Node.js and npm are installed.
